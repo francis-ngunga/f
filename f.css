@@ -1,0 +1,42 @@
+body{
+background-color: brown;
+font-style: italic;
+
+
+}
+.container{
+margin: auto;
+width: 350px;
+padding: 20px;
+border-radius: 8px;
+
+
+}
+.input-group{
+margin-bottom: 25px;
+}
+
+.input-group label{
+display: : block;
+font-weight: bold;
+margin-bottom: 4px;
+}
+
+.input-group input[type="text"], .input-group textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: antiquewhite;
+
+}
+input[type=submit]{
+    cursor: pointer;
+    font-style: italic;
+}
+input[type=reset]{
+    cursor: pointer;
+    font-style: italic;
+}
+
